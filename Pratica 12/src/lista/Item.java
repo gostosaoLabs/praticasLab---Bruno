@@ -1,0 +1,21 @@
+package lista;
+
+public class Item {
+    int id;
+    
+    Item(int id){
+        this.id = id;
+    }
+    Item(){
+        this.id = 0;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+    
+}
